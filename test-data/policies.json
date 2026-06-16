@@ -1,0 +1,63 @@
+{
+  "new_policy": [
+    {
+      "policyNumber": "LI-2026-000001",
+      "type": "Term Life",
+      "sumAssured": 5000000,
+      "term": 20,
+      "premiumFrequency": "Annual",
+      "status": "Active",
+      "description": "Standard new term life policy"
+    },
+    {
+      "policyNumber": "LI-2026-000002",
+      "type": "Endowment",
+      "sumAssured": 3000000,
+      "term": 15,
+      "premiumFrequency": "Monthly",
+      "status": "Active",
+      "description": "New endowment policy monthly premium"
+    }
+  ],
+  "matured_policy": [
+    {
+      "policyNumber": "LI-2006-000123",
+      "type": "Endowment",
+      "sumAssured": 2000000,
+      "term": 20,
+      "premiumFrequency": "Annual",
+      "status": "Matured",
+      "maturityDate": "2026-01-15",
+      "description": "Policy reached end of term - payout due"
+    }
+  ],
+  "endowment_policy": [
+    {
+      "policyNumber": "LI-2020-000456",
+      "type": "Endowment",
+      "sumAssured": 10000000,
+      "term": 25,
+      "premiumFrequency": "Quarterly",
+      "status": "Active",
+      "description": "Long term endowment savings policy"
+    }
+  ],
+  "renewal_policy": [
+    {
+      "policyNumber": "LI-2016-000789",
+      "type": "Term Life",
+      "sumAssured": 5000000,
+      "term": 10,
+      "premiumFrequency": "Annual",
+      "status": "Due for Renewal",
+      "renewalDate": "2026-07-01",
+      "description": "Policy due for renewal next month"
+    }
+  ],
+  "historical_policy": [
+    {
+      "policyNumber": "LI-2010-000321",
+      "type": "Term Life",
+      "sumAssured": 3000000,
+      "term": 10,
+      "premiumFrequency": "Annual",

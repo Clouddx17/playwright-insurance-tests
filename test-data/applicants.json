@@ -1,0 +1,68 @@
+{
+  "valid": [
+    {
+      "name": "Tanaka Hiroshi",
+      "dob": "1990-05-15",
+      "age": 34,
+      "gender": "Male",
+      "smoker": false,
+      "sumAssured": 5000000,
+      "policyTerm": 20,
+      "description": "Standard valid male applicant"
+    },
+    {
+      "name": "Yamamoto Yuki",
+      "dob": "1995-08-20",
+      "age": 29,
+      "gender": "Female",
+      "smoker": false,
+      "sumAssured": 3000000,
+      "policyTerm": 15,
+      "description": "Standard valid female applicant"
+    }
+  ],
+  "boundary": [
+    {
+      "name": "Min Age Applicant",
+      "dob": "2008-06-16",
+      "age": 18,
+      "gender": "Male",
+      "smoker": false,
+      "sumAssured": 1000000,
+      "policyTerm": 10,
+      "description": "Minimum valid age - boundary test"
+    },
+    {
+      "name": "Max Age Applicant",
+      "dob": "1961-06-16",
+      "age": 65,
+      "gender": "Female",
+      "smoker": false,
+      "sumAssured": 1000000,
+      "policyTerm": 10,
+      "description": "Maximum valid age - boundary test"
+    }
+  ],
+  "invalid": [
+    {
+      "name": "Underage Applicant",
+      "dob": "2010-06-16",
+      "age": 16,
+      "gender": "Male",
+      "smoker": false,
+      "sumAssured": 1000000,
+      "policyTerm": 10,
+      "description": "Below minimum age - should be rejected"
+    },
+    {
+      "name": "Overage Applicant",
+      "dob": "1955-06-16",
+      "age": 71,
+      "gender": "Male",
+      "smoker": false,
+      "sumAssured": 1000000,
+      "policyTerm": 10,
+      "description": "Above maximum age - should be rejected"
+    }
+  ]
+}
